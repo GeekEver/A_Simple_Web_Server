@@ -1,4 +1,3 @@
-```c++
 #include "winsock2.h"
 #include "fstream"
 #include "iostream"
@@ -202,4 +201,3 @@ void SimpleServer(SOCKET LisnSock, std::string path)
 	closesocket(LisnSock);
 	std::cout << "Closed well.\n\n\n" << std::endl;
 }
-```
